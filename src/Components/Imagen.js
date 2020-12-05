@@ -6,7 +6,7 @@ export default class Imagen extends Component {
     render() {
         return (
             <div style={{
-                        marginTop: "10vh",
+                        marginTop: "5vh",
                         display: "flex",
                         alignItems: "center",
                         justifyContent: "center"}}>

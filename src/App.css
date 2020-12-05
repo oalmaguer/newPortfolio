@@ -10,9 +10,30 @@ p {
   color: white;
 }
 
+.name {
+  color: white;
+  font-family: 'Playfair Display', serif;
+  font-size: 3em;
+  font-weight: 900;
+}
+
+.iconLaptop {
+  margin-top: 50px;
+  margin-bottom: -20px;
+  width: 40px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.parrafo {
+  margin-bottom: 20px;
+}
+
+.job {
+  margin-top: -4%;
 }
 
 @media (prefers-reduced-motion: no-preference) {

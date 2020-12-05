@@ -6,7 +6,7 @@ export default class Iconos extends Component {
     render() {
         return (
             <div style={{
-                        marginTop: "10vh",
+                        marginTop: "2vh",
                         display: "flex",
                         alignItems: "center",
                         justifyContent: "center"}}>
@@ -18,17 +18,17 @@ export default class Iconos extends Component {
     hoverColor="white"
     width="2em"
     animationDuration={0.8}
-    style={{padding: '2em'}}
+    style={{padding: '1em', marginBottom: "40px"}}
     />
      <AnimatedSocialIcon
-    brandName="twitter"
+    brandName="linkedin"
     url="https://github.com/meko-deng/react-animated-social-icons"
     animation="bounce"
     defaultColor="#17bf63"
     hoverColor="white"
     width="2em"
     animationDuration={0.8}
-    style={{padding: '2em'}}
+    style={{padding: '1em', marginBottom: "40px"}}
     />
      <AnimatedSocialIcon
     brandName="facebook"
@@ -38,7 +38,7 @@ export default class Iconos extends Component {
     hoverColor="white"
     width="2em"
     animationDuration={0.8}
-    style={{padding: '2em'}}
+    style={{padding: '1em', marginBottom: "40px"}}
     />
     
             </div>
