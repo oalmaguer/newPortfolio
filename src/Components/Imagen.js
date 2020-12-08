@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ReactRoundedImage from "react-rounded-image";
-import Yo from '../images/yo.jpeg';
+import Yo from '../images/yobien.jpg';
 
 export default class Imagen extends Component {
     render() {
@@ -13,8 +13,8 @@ export default class Imagen extends Component {
                 <ReactRoundedImage
                 image={Yo}
                 roundedColor= "#17bf63"
-                imageWidth="200"
-                imageHeight="200"
+                imageWidth="250"
+                imageHeight="250"
                 roundedSize="5"
                 />
     

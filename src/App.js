@@ -2,24 +2,34 @@ import './App.css';
 import Imagen from './Components/Imagen';
 import Container from '@material-ui/core/Container';
 import Iconos from './Components/Iconos';
-import IconLaptop from './images/laptopbien.png'; // Tell webpack this JS file uses this image
+import Ufo from './images/ufo.png'; // Tell webpack this JS file uses this image
 import ContactMe from './Components/ContactMe';
 
 function App() {
   return (
     <div className="App">
-      <img src={IconLaptop} className="iconLaptop" />
+      <img src={Ufo} className="iconLaptop" />
       <Imagen />
       <Container maxWidth="md">
         <p className="name">Hi, I'm Oliver</p>
         <h3 className="job">Full Stack Web Developer</h3>
         <p className="parrafo">
-        Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.
+         I'm a Fullstack Web Developer from Sinaloa, Mexico, based in Atlanta, Georgia. Green card holder. <br />
+         I graduated from university in Mexico in 2018 as an Information Systems Engineer
+         and ever since I discovered the Web Development area I fell in love with it and I've been learning everything I can
+         about it. I'm a fast learner and I'm always looking to improve my skills.
+         I started a small website business this last year creating pages with Wordpress, Elementor and code. 
+        You can learn more about it here <a href="https:///creativoa.com" target="_blank">Creativo A</a> 
+        <br />
+        <p><span className="habilidades">My Skills: </span> HTML, CSS, Javascript, Jquery, React, PHP, Mysql, Wordpress, MongoDB, Photoshop, Premiere.</p>
         </p>
+        
       <Iconos />
 
       <ContactMe />
-
+            <p className="website">
+            Website created and developed by Oliver Almaguer 👽 
+            </p>
 
       </Container>
     </div>

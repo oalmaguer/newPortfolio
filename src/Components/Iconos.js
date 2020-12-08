@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
-import {AnimatedSocialIcon} from 'react-animated-social-icons'
+import {AnimatedSocialIcon} from 'react-animated-social-icons';
+import Resume from '../images/resume.png';
+import ResumeDl from '../resume.pdf';
+
+
 
 
 export default class Iconos extends Component {
@@ -12,7 +16,7 @@ export default class Iconos extends Component {
                         justifyContent: "center"}}>
                <AnimatedSocialIcon
     brandName="github"
-    url="https://github.com/meko-deng/react-animated-social-icons"
+    url="https://github.com/oalmaguer"
     animation="bounce"
     defaultColor="#17bf63"
     hoverColor="white"
@@ -22,7 +26,7 @@ export default class Iconos extends Component {
     />
      <AnimatedSocialIcon
     brandName="linkedin"
-    url="https://github.com/meko-deng/react-animated-social-icons"
+    url="https://www.linkedin.com/in/oliveralmaguer/"
     animation="bounce"
     defaultColor="#17bf63"
     hoverColor="white"
@@ -30,16 +34,7 @@ export default class Iconos extends Component {
     animationDuration={0.8}
     style={{padding: '1em', marginBottom: "40px"}}
     />
-     <AnimatedSocialIcon
-    brandName="facebook"
-    url="https://github.com/meko-deng/react-animated-social-icons"
-    animation="bounce"
-    defaultColor="#17bf63"
-    hoverColor="white"
-    width="2em"
-    animationDuration={0.8}
-    style={{padding: '1em', marginBottom: "40px"}}
-    />
+    <a href={ResumeDl} target="_blank" className="resumedl"> <img src={Resume} className="resume"/></a>
     
             </div>
         )

@@ -3,23 +3,70 @@
 }
 
 body {
-  background-color: #16202b;
+  background-color: #15202b;
 }
 
 p {
   color: white;
 }
 
+a:link {
+  color: #17bf63;
+
+}
+
+a:visited {
+  color: #17bf63  ;
+
+}
+
+.resume {
+  width: 2.5em;
+  margin-left: 10px;
+  margin-bottom: 40px;
+}
+
+
+
+.resume:hover{
+  color: white;
+}
+
+.job {
+  font-family: montserrat, sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 1.9em;
+  color: #17bf63;
+}
+
+.habilidades {
+  font-family: montserrat, sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 1.2em;
+  color: #17bf63;
+}
+
+.parrafo {
+  line-height: 2;
+}
+
+.website {
+  font-size: small;
+}
+
 .name {
   color: white;
   font-family: 'Playfair Display', serif;
-  font-size: 3em;
+  font-size: 4.5em;
+  margin-top: 10px;
   font-weight: 900;
 }
 
 .iconLaptop {
-  margin-top: 50px;
-  margin-bottom: -20px;
+  margin-top: 70px;
+  margin-bottom:05px;
   width: 40px;
 }
 
