@@ -6,13 +6,27 @@ body {
   background-color: #15202b;
 }
 
+hr {
+  color: #17bf63;
+  border: solid 0.2px #17bf63;
+}
+
+.menu {
+ text-align: left;
+}
+
+.menu li {
+  display: inline;
+  padding: 10px;
+}
+
 p {
   color: white;
 }
 
 a:link {
   color: #17bf63;
-
+  text-decoration: none;
 }
 
 a:visited {

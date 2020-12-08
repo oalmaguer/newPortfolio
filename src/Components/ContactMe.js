@@ -9,7 +9,7 @@ export default class ContactMe extends Component {
                         display: "flex",
                         alignItems: "center",
                         justifyContent: "center"}}>
-            <p>Contact Me:
+            <p>Contact me:
             almaguero95@gmail.com</p> <br />
              
             </div>
