@@ -17,15 +17,15 @@ export default function Ruta(){
     return(
         <Router>
         <div className="menu">
-        <ul>
+        {/* <ul>
         <li>
-        <Link to="/">Home</Link>
+        <Link to="/newPortfolio">Home</Link>
         </li>
-        <li>
+        {/* <li>
         <Link to="/about">About</Link>
-        </li>
-        </ul>
-        <hr />
+        </li> */}
+        {/* </ul>
+        <hr /> */} */}
         </div>
 
         <Switch>
