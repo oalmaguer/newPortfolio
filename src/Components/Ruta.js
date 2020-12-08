@@ -29,7 +29,7 @@ export default function Ruta(){
         </div>
 
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/newPortfolio">
           <Home />
           </Route>
           <Route path="/about">
