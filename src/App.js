@@ -6,14 +6,12 @@ import Ufo from './images/ufo.png'; // Tell webpack this JS file uses this image
 import ContactMe from './Components/ContactMe';
 import Ruta from "./Components/Ruta.js";
 
-
 function App() {
   return (
 
     <div className="App">
     <Ruta />
 
-     
     </div>
   );
 }

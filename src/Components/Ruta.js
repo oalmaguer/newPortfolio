@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Imagen from './Imagen.js';
 import Iconos from './Iconos.js';
 import ContactMe from './ContactMe.js';
+import Aboutpage from './About';
 import Container from '@material-ui/core/Container';
 import {
     BrowserRouter as Router,
@@ -14,18 +15,20 @@ import Ufo from '../images/ufo.png';
 
 export default function Ruta(){
 
+
+
     return(
         <Router>
         <div className="menu">
-        {/* <ul>
+        <ul>
         <li>
         <Link to="/newPortfolio">Home</Link>
         </li>
-        {/* <li>
-        <Link to="/about">About</Link>
-        </li> */}
-        {/* </ul>
-        <hr /> */} */}
+        <li>
+        <Link to="/about">My Projects</Link>
+        </li> 
+        </ul>
+        <hr />
         </div>
 
         <Switch>
@@ -64,7 +67,7 @@ function Home() {
 
       <ContactMe />
             <p className="website">
-            Website created and developed by Oliver Almaguer 👽 
+            Website created with and developed by Oliver Almaguer 👽 
             </p>
 
       </Container>
@@ -74,8 +77,6 @@ function Home() {
 
 function About() {
     return(
-        <div>
-            <h2>About page</h2>
-        </div>
+       <Aboutpage />
     )
 }
