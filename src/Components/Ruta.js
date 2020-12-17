@@ -22,10 +22,10 @@ export default function Ruta(){
         <div className="menu">
         <ul>
         <li>
-        <Link to="/newPortfolio">Home |</Link>
+        <Link to="/newPortfolio">Home</Link>
         </li>
         <li>
-        <Link to="/about">My Projects |</Link>
+        <Link to="/about">My Projects</Link>
         </li> 
         </ul>
         </div>

@@ -24,6 +24,8 @@ hr {
   }
 }
 
+
+
 .cards img {
   margin-top: 40px;
 }
@@ -38,6 +40,13 @@ hr {
 
 .cards button {
   color: white;
+}
+
+@media (max-width: 800px) {
+  .menu {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .menu {
