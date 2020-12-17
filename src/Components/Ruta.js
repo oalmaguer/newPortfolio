@@ -22,13 +22,12 @@ export default function Ruta(){
         <div className="menu">
         <ul>
         <li>
-        <Link to="/newPortfolio">Home</Link>
+        <Link to="/newPortfolio">Home |</Link>
         </li>
         <li>
-        <Link to="/about">My Projects</Link>
+        <Link to="/about">My Projects |</Link>
         </li> 
         </ul>
-        <hr />
         </div>
 
         <Switch>
@@ -67,7 +66,7 @@ function Home() {
 
       <ContactMe />
             <p className="website">
-            Website created with and developed by Oliver Almaguer 👽 
+            Website created and developed by Oliver Almaguer 👽 
             </p>
 
       </Container>

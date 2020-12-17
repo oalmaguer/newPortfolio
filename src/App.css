@@ -8,7 +8,36 @@ body {
 
 hr {
   color: #17bf63;
-  border: solid 0.2px #17bf63;
+  
+}
+
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 800px) {
+  .cards {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+.cards img {
+  margin-top: 40px;
+}
+
+.cards a:visited {
+  color: white;
+}
+
+.cards a:link {
+  color: white;
+}
+
+.cards button {
+  color: white;
 }
 
 .menu {
