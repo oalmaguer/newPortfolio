@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/newPortfolio/static/css/main.e8777f43.chunk.css",
-    "main.js": "/newPortfolio/static/js/main.b2a0dd6f.chunk.js",
-    "main.js.map": "/newPortfolio/static/js/main.b2a0dd6f.chunk.js.map",
-    "runtime-main.js": "/newPortfolio/static/js/runtime-main.f5763c3e.js",
-    "runtime-main.js.map": "/newPortfolio/static/js/runtime-main.f5763c3e.js.map",
-    "static/js/2.bcb495d4.chunk.js": "/newPortfolio/static/js/2.bcb495d4.chunk.js",
-    "static/js/2.bcb495d4.chunk.js.map": "/newPortfolio/static/js/2.bcb495d4.chunk.js.map",
-    "static/js/3.e9a31e9f.chunk.js": "/newPortfolio/static/js/3.e9a31e9f.chunk.js",
-    "static/js/3.e9a31e9f.chunk.js.map": "/newPortfolio/static/js/3.e9a31e9f.chunk.js.map",
+    "main.css": "/newPortfolio/static/css/main.4deb33a0.chunk.css",
+    "main.js": "/newPortfolio/static/js/main.ecf98063.chunk.js",
+    "main.js.map": "/newPortfolio/static/js/main.ecf98063.chunk.js.map",
+    "runtime-main.js": "/newPortfolio/static/js/runtime-main.10778b3a.js",
+    "runtime-main.js.map": "/newPortfolio/static/js/runtime-main.10778b3a.js.map",
+    "static/js/2.7cad02a4.chunk.js": "/newPortfolio/static/js/2.7cad02a4.chunk.js",
+    "static/js/2.7cad02a4.chunk.js.map": "/newPortfolio/static/js/2.7cad02a4.chunk.js.map",
+    "static/js/3.b9652343.chunk.js": "/newPortfolio/static/js/3.b9652343.chunk.js",
+    "static/js/3.b9652343.chunk.js.map": "/newPortfolio/static/js/3.b9652343.chunk.js.map",
     "index.html": "/newPortfolio/index.html",
-    "static/css/main.e8777f43.chunk.css.map": "/newPortfolio/static/css/main.e8777f43.chunk.css.map",
-    "static/js/2.bcb495d4.chunk.js.LICENSE.txt": "/newPortfolio/static/js/2.bcb495d4.chunk.js.LICENSE.txt",
+    "static/css/main.4deb33a0.chunk.css.map": "/newPortfolio/static/css/main.4deb33a0.chunk.css.map",
+    "static/js/2.7cad02a4.chunk.js.LICENSE.txt": "/newPortfolio/static/js/2.7cad02a4.chunk.js.LICENSE.txt",
     "static/media/bamazon.f4c4047e.png": "/newPortfolio/static/media/bamazon.f4c4047e.png",
+    "static/media/gmail.a2f2146f.png": "/newPortfolio/static/media/gmail.a2f2146f.png",
     "static/media/mazatlan.de72dc02.png": "/newPortfolio/static/media/mazatlan.de72dc02.png",
     "static/media/movie.d5aaac36.gif": "/newPortfolio/static/media/movie.d5aaac36.gif",
     "static/media/nodejs.dea69c80.gif": "/newPortfolio/static/media/nodejs.dea69c80.gif",
@@ -23,9 +24,9 @@
     "static/media/yobien.5a9228e6.jpg": "/newPortfolio/static/media/yobien.5a9228e6.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f5763c3e.js",
-    "static/js/2.bcb495d4.chunk.js",
-    "static/css/main.e8777f43.chunk.css",
-    "static/js/main.b2a0dd6f.chunk.js"
+    "static/js/runtime-main.10778b3a.js",
+    "static/js/2.7cad02a4.chunk.js",
+    "static/css/main.4deb33a0.chunk.css",
+    "static/js/main.ecf98063.chunk.js"
   ]
 }
