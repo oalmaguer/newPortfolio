@@ -3,6 +3,9 @@ import Imagen from './Imagen.js';
 import Iconos from './Iconos.js';
 import ContactMe from './ContactMe.js';
 import Aboutpage from './About';
+import Education from './Education';
+import ContactPage from './ContactPage';
+import Experience from './Experience';
 import Container from '@material-ui/core/Container';
 import {
     BrowserRouter as Router,
@@ -23,10 +26,27 @@ export default function Ruta(){
         <ul>
         <li>
         <Link to="/newPortfolio">Home</Link>
+        
         </li>
+        <li>
+        <Link to="/education">Education</Link>
+        </li> 
+
+        <li>
+        <Link to="/experience">Work Experience</Link>
+        </li> 
+
         <li>
         <Link to="/about">My Projects</Link>
         </li> 
+
+        <li>
+        <Link to="/contactpage">Contact Me!</Link>
+        </li> 
+
+        
+
+
         </ul>
         </div>
 
@@ -34,9 +54,23 @@ export default function Ruta(){
           <Route exact path="/newPortfolio">
           <Home />
           </Route>
+
           <Route path="/about">
           <About />
           </Route>
+
+          <Route path="/education">
+          <Education />
+          </Route>
+
+          <Route path="/experience">
+          <Experience />
+          </Route>
+
+          <Route path="/contactpage">
+          <ContactPage />
+          </Route>
+
         </Switch>
 
         </Router>
@@ -68,7 +102,6 @@ function Home() {
             <p className="website">
             Website created and developed by Oliver Almaguer 👽 
             </p>
-
       </Container>
       </div>
     )

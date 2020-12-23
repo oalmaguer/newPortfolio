@@ -11,6 +11,26 @@ hr {
   
 }
 
+.chronoContainer {
+    width: 80%;
+    margin: auto;
+    color: white;
+    margin-top: 10vh;
+}
+
+.chronoContainer p {
+  font-weight: 500;
+  font-size: 1.2em;
+  color: black !important;
+}
+
+
+
+.chrono:hover {
+  
+  background-color: white;
+}
+
 
 .cards {
   display: flex;

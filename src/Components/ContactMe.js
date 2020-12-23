@@ -10,8 +10,7 @@ export default class ContactMe extends Component {
                         alignItems: "center",
                         justifyContent: "center"}}>
             <p>Contact me:
-            almaguero95@gmail.com</p> <br />
-             
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=almaguero95@gmail.com" target="_blank"> almaguero95@gmail.com</a></p> <br />
             </div>
             
         )
