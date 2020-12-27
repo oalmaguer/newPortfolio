@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/newPortfolio/static/css/main.2f853dd0.chunk.css",
-    "main.js": "/newPortfolio/static/js/main.c83df4d3.chunk.js",
-    "main.js.map": "/newPortfolio/static/js/main.c83df4d3.chunk.js.map",
+    "main.css": "/newPortfolio/static/css/main.c0856da5.chunk.css",
+    "main.js": "/newPortfolio/static/js/main.5422f25d.chunk.js",
+    "main.js.map": "/newPortfolio/static/js/main.5422f25d.chunk.js.map",
     "runtime-main.js": "/newPortfolio/static/js/runtime-main.5853ee19.js",
     "runtime-main.js.map": "/newPortfolio/static/js/runtime-main.5853ee19.js.map",
     "static/css/2.2aa38b9c.chunk.css": "/newPortfolio/static/css/2.2aa38b9c.chunk.css",
-    "static/js/2.8e5ba07d.chunk.js": "/newPortfolio/static/js/2.8e5ba07d.chunk.js",
-    "static/js/2.8e5ba07d.chunk.js.map": "/newPortfolio/static/js/2.8e5ba07d.chunk.js.map",
+    "static/js/2.866fbb89.chunk.js": "/newPortfolio/static/js/2.866fbb89.chunk.js",
+    "static/js/2.866fbb89.chunk.js.map": "/newPortfolio/static/js/2.866fbb89.chunk.js.map",
     "static/js/3.d74c76ba.chunk.js": "/newPortfolio/static/js/3.d74c76ba.chunk.js",
     "static/js/3.d74c76ba.chunk.js.map": "/newPortfolio/static/js/3.d74c76ba.chunk.js.map",
     "index.html": "/newPortfolio/index.html",
     "static/css/2.2aa38b9c.chunk.css.map": "/newPortfolio/static/css/2.2aa38b9c.chunk.css.map",
-    "static/css/main.2f853dd0.chunk.css.map": "/newPortfolio/static/css/main.2f853dd0.chunk.css.map",
-    "static/js/2.8e5ba07d.chunk.js.LICENSE.txt": "/newPortfolio/static/js/2.8e5ba07d.chunk.js.LICENSE.txt",
+    "static/css/main.c0856da5.chunk.css.map": "/newPortfolio/static/css/main.c0856da5.chunk.css.map",
+    "static/js/2.866fbb89.chunk.js.LICENSE.txt": "/newPortfolio/static/js/2.866fbb89.chunk.js.LICENSE.txt",
     "static/media/bamazon.f4c4047e.png": "/newPortfolio/static/media/bamazon.f4c4047e.png",
     "static/media/gmail.a2f2146f.png": "/newPortfolio/static/media/gmail.a2f2146f.png",
     "static/media/mazatlan.de72dc02.png": "/newPortfolio/static/media/mazatlan.de72dc02.png",
@@ -27,8 +27,8 @@
   "entrypoints": [
     "static/js/runtime-main.5853ee19.js",
     "static/css/2.2aa38b9c.chunk.css",
-    "static/js/2.8e5ba07d.chunk.js",
-    "static/css/main.2f853dd0.chunk.css",
-    "static/js/main.c83df4d3.chunk.js"
+    "static/js/2.866fbb89.chunk.js",
+    "static/css/main.c0856da5.chunk.css",
+    "static/js/main.5422f25d.chunk.js"
   ]
 }
