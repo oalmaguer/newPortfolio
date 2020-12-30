@@ -12,11 +12,27 @@ hr {
 }
 
 .chronoContainer {
-    width: 80%;
+
+    width: 60%;
     margin: auto;
     color: white;
     margin-top: 10vh;
 }
+
+
+
+@media (max-width: 40rem) {
+  .chronoContainer {
+    width: 100%;
+  }
+
+
+
+
+ 
+}
+
+
 
 .chronoContainer p {
   font-weight: 500;
@@ -34,6 +50,7 @@ hr {
 
 .cards {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
@@ -62,16 +79,40 @@ hr {
   color: white;
 }
 
-@media (max-width: 800px) {
+
+@media (max-width: 40rem) {
   .menu {
-    display: flex;
-    justify-content: center;
+    display: none;
   }
+
+  .iconLaptop {
+    display: none;
+  }
+
+
+
+ 
+}
+
+.tlTitle {
+  color: black;
+  font-size: 1.5em;
+  font-family: 'Montserrat' serif;
+  text-align: center;
+  padding: 10px;
+}
+
+.tlSubtitle {
+  font-size: 1.2em;
+  font-style: italic;
+  color: black;
+  text-align: center;
 }
 
 .menu {
  text-align: left;
 }
+
 
 .menu li {
   display: inline;
@@ -94,7 +135,7 @@ a:visited {
 
 .resume {
   width: 2.5em;
-  margin-left: 10px;
+  margin-left: 50%;
   margin-bottom: 40px;
 }
 
@@ -110,6 +151,7 @@ a:visited {
   font-weight: 700;
   font-size: 1.9em;
   color: #17bf63;
+  padding: 20px;
 }
 
 .habilidades {

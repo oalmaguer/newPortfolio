@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ReactRoundedImage from "react-rounded-image";
-import Yo from '../images/yobien.jpg';
+import Yo from '../images/yo.jpeg';
 
 export default class Imagen extends Component {
     render() {

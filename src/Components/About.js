@@ -6,15 +6,23 @@ import Movie from '../images/movie.gif';
 import Node from '../images/nodejs.gif';
 import {AnimatedSocialIcon} from 'react-animated-social-icons';
 import Bamazon from '../images/bamazon.png';
+import Creativoa from '../images/creativoa.png';
+import Limpiatudepa from '../images/limpiatudepa.png';
+import Tours from '../images/toursen.png';
 
-export default class Aboutpage extends Component {
+export default class About extends Component {
 
     render() {
         var arrayWeather = [Weather, Mazatlan];
         var arrayMovie = [Movie];
         var node = [Node];
         var bamazon = [Bamazon];
+        var creativoa = [Creativoa];
+        var tours = [Tours];
+        var limpiatudepa = [Limpiatudepa];
+        
         return(
+          
              <div className="cards">
                  <div>
                 <ProductCard photos={[
@@ -84,12 +92,55 @@ export default class Aboutpage extends Component {
     style={{padding: '1em', marginBottom: "40px"}}
     />
             </div>
+
+           <div>
+<ProductCard photos={[
+            creativoa[0]
+          ]}
+          float
+          productName='Creativo A!'
+          description='A Website for a web design company.'
+          buttonText='Go to the live Website'
+          url='https://creativoa.com/'
+        />
+       
+            </div>
+            <br />
+             <div>
+<ProductCard photos={[
+            tours[0]
+          ]}
+          float
+          productName='Tours en Mazatlan'
+          description='A website for a tourism company.'
+          buttonText='Go to the live Website'
+          url='https://toursenmazatlan.com'
+        />
+       
+            </div>
+
+
             <div>
+<ProductCard photos={[
+            limpiatudepa[0]
+          ]}
+          float
+          productName='Limpia tu Depa'
+          description='A practice website I made with Wordpress, Elementor and code.'
+          buttonText='Go to the live Website'
+          url='https://limpiatudepa.com'
+          style={{paddingBottom: "40px"}}
+
+        />
+       
+            </div>
+
+             <div>
 <ProductCard photos={[
             bamazon[0]
           ]}
           float
-          productName='Amazon like App'
+          productName='Amazon App'
           description='An app that checks the stock of the item you purchase and updates the new quantity.'
           buttonText='Go to the live Website'
           url='https://powerful-springs-77120.herokuapp.com/'

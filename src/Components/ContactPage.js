@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Gmail from '../images/gmail.png';
+import Iconos from './Iconos';
 
 
 export default class ContactPage extends Component {
@@ -16,10 +17,11 @@ export default class ContactPage extends Component {
              
              <br />
             <img src={Gmail} style={{
-                width: "30px",
+                width: "40px",
                 marginTop: "25px"
             }} />
             </a>
+            <Iconos />
             <br />
                 
             </div>
