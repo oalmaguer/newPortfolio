@@ -9,6 +9,7 @@ import Bamazon from '../images/bamazon.png';
 import Creativoa from '../images/creativoa.png';
 import Limpiatudepa from '../images/limpiatudepa.png';
 import Tours from '../images/toursen.png';
+import Video from '../images/desktop.webm';
 
 export default class About extends Component {
 
@@ -154,6 +155,26 @@ export default class About extends Component {
     width="2em"
     animationDuration={0.8}
     style={{padding: '1em', marginBottom: "40px"}}
+    />
+            </div>
+            <div style={{padding: "20px"}}>
+              <h1 style={{color: "white"}}>News Saver with Mediastack API</h1>
+              <p>Save your favorite news in your local storage!</p>
+              <p>Unfortunately, you have to pay for the API to work with HTTPS calls so I cannot use it 
+                in production, but here's an example.
+              </p>
+              
+              <video src={Video} width="950" height="600" controls="controls" autoplay="true" />
+              <br />
+               <AnimatedSocialIcon
+    brandName="github"
+    url="https://github.com/oalmaguer/news"
+    animation="bounce"
+    defaultColor="#17bf63"
+    hoverColor="white"
+    width="2em"
+    animationDuration={0.8}
+    style={{padding: '2em', marginBottom: "40px"}}
     />
             </div>
         </div>
