@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/newPortfolio/static/css/main.9e9502bc.chunk.css",
-    "main.js": "/newPortfolio/static/js/main.58f26922.chunk.js",
-    "main.js.map": "/newPortfolio/static/js/main.58f26922.chunk.js.map",
+    "main.js": "/newPortfolio/static/js/main.896c2cf5.chunk.js",
+    "main.js.map": "/newPortfolio/static/js/main.896c2cf5.chunk.js.map",
     "runtime-main.js": "/newPortfolio/static/js/runtime-main.5853ee19.js",
     "runtime-main.js.map": "/newPortfolio/static/js/runtime-main.5853ee19.js.map",
     "static/css/2.2aa38b9c.chunk.css": "/newPortfolio/static/css/2.2aa38b9c.chunk.css",
-    "static/js/2.7ea23417.chunk.js": "/newPortfolio/static/js/2.7ea23417.chunk.js",
-    "static/js/2.7ea23417.chunk.js.map": "/newPortfolio/static/js/2.7ea23417.chunk.js.map",
+    "static/js/2.6d5a1783.chunk.js": "/newPortfolio/static/js/2.6d5a1783.chunk.js",
+    "static/js/2.6d5a1783.chunk.js.map": "/newPortfolio/static/js/2.6d5a1783.chunk.js.map",
     "static/js/3.d74c76ba.chunk.js": "/newPortfolio/static/js/3.d74c76ba.chunk.js",
     "static/js/3.d74c76ba.chunk.js.map": "/newPortfolio/static/js/3.d74c76ba.chunk.js.map",
     "index.html": "/newPortfolio/index.html",
     "static/css/2.2aa38b9c.chunk.css.map": "/newPortfolio/static/css/2.2aa38b9c.chunk.css.map",
     "static/css/main.9e9502bc.chunk.css.map": "/newPortfolio/static/css/main.9e9502bc.chunk.css.map",
-    "static/js/2.7ea23417.chunk.js.LICENSE.txt": "/newPortfolio/static/js/2.7ea23417.chunk.js.LICENSE.txt",
+    "static/js/2.6d5a1783.chunk.js.LICENSE.txt": "/newPortfolio/static/js/2.6d5a1783.chunk.js.LICENSE.txt",
     "static/media/bamazon.f4c4047e.png": "/newPortfolio/static/media/bamazon.f4c4047e.png",
     "static/media/creativoa.6181a990.png": "/newPortfolio/static/media/creativoa.6181a990.png",
+    "static/media/desktop.f53c456e.webm": "/newPortfolio/static/media/desktop.f53c456e.webm",
     "static/media/gmail.a2f2146f.png": "/newPortfolio/static/media/gmail.a2f2146f.png",
     "static/media/limpiatudepa.43499908.png": "/newPortfolio/static/media/limpiatudepa.43499908.png",
     "static/media/mazatlan.de72dc02.png": "/newPortfolio/static/media/mazatlan.de72dc02.png",
@@ -30,8 +31,8 @@
   "entrypoints": [
     "static/js/runtime-main.5853ee19.js",
     "static/css/2.2aa38b9c.chunk.css",
-    "static/js/2.7ea23417.chunk.js",
+    "static/js/2.6d5a1783.chunk.js",
     "static/css/main.9e9502bc.chunk.css",
-    "static/js/main.58f26922.chunk.js"
+    "static/js/main.896c2cf5.chunk.js"
   ]
 }
