@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/newPortfolio/static/css/main.9e9502bc.chunk.css",
-    "main.js": "/newPortfolio/static/js/main.896c2cf5.chunk.js",
-    "main.js.map": "/newPortfolio/static/js/main.896c2cf5.chunk.js.map",
+    "main.css": "/newPortfolio/static/css/main.56039979.chunk.css",
+    "main.js": "/newPortfolio/static/js/main.31024182.chunk.js",
+    "main.js.map": "/newPortfolio/static/js/main.31024182.chunk.js.map",
     "runtime-main.js": "/newPortfolio/static/js/runtime-main.5853ee19.js",
     "runtime-main.js.map": "/newPortfolio/static/js/runtime-main.5853ee19.js.map",
     "static/css/2.2aa38b9c.chunk.css": "/newPortfolio/static/css/2.2aa38b9c.chunk.css",
-    "static/js/2.6d5a1783.chunk.js": "/newPortfolio/static/js/2.6d5a1783.chunk.js",
-    "static/js/2.6d5a1783.chunk.js.map": "/newPortfolio/static/js/2.6d5a1783.chunk.js.map",
+    "static/js/2.785ec58a.chunk.js": "/newPortfolio/static/js/2.785ec58a.chunk.js",
+    "static/js/2.785ec58a.chunk.js.map": "/newPortfolio/static/js/2.785ec58a.chunk.js.map",
     "static/js/3.d74c76ba.chunk.js": "/newPortfolio/static/js/3.d74c76ba.chunk.js",
     "static/js/3.d74c76ba.chunk.js.map": "/newPortfolio/static/js/3.d74c76ba.chunk.js.map",
     "index.html": "/newPortfolio/index.html",
     "static/css/2.2aa38b9c.chunk.css.map": "/newPortfolio/static/css/2.2aa38b9c.chunk.css.map",
-    "static/css/main.9e9502bc.chunk.css.map": "/newPortfolio/static/css/main.9e9502bc.chunk.css.map",
-    "static/js/2.6d5a1783.chunk.js.LICENSE.txt": "/newPortfolio/static/js/2.6d5a1783.chunk.js.LICENSE.txt",
+    "static/css/main.56039979.chunk.css.map": "/newPortfolio/static/css/main.56039979.chunk.css.map",
+    "static/js/2.785ec58a.chunk.js.LICENSE.txt": "/newPortfolio/static/js/2.785ec58a.chunk.js.LICENSE.txt",
+    "static/media/Webscrape.21a943f2.mp4": "/newPortfolio/static/media/Webscrape.21a943f2.mp4",
     "static/media/bamazon.f4c4047e.png": "/newPortfolio/static/media/bamazon.f4c4047e.png",
     "static/media/creativoa.6181a990.png": "/newPortfolio/static/media/creativoa.6181a990.png",
     "static/media/desktop.f53c456e.webm": "/newPortfolio/static/media/desktop.f53c456e.webm",
@@ -31,8 +32,8 @@
   "entrypoints": [
     "static/js/runtime-main.5853ee19.js",
     "static/css/2.2aa38b9c.chunk.css",
-    "static/js/2.6d5a1783.chunk.js",
-    "static/css/main.9e9502bc.chunk.css",
-    "static/js/main.896c2cf5.chunk.js"
+    "static/js/2.785ec58a.chunk.js",
+    "static/css/main.56039979.chunk.css",
+    "static/js/main.31024182.chunk.js"
   ]
 }
