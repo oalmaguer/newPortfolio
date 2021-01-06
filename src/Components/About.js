@@ -10,6 +10,7 @@ import Creativoa from '../images/creativoa.png';
 import Limpiatudepa from '../images/limpiatudepa.png';
 import Tours from '../images/toursen.png';
 import Video from '../images/desktop.webm';
+import Webscrape from '../images/Webscrape.mp4';
 
 export default class About extends Component {
 
@@ -156,16 +157,19 @@ export default class About extends Component {
     animationDuration={0.8}
     style={{padding: '1em', marginBottom: "40px"}}
     />
+
             </div>
-            <div style={{padding: "20px"}}>
+
+            <div className="videos" style={{width: "100%"}}>
               <h1 style={{color: "white"}}>News Saver with Mediastack API</h1>
               <p>Save your favorite news in your local storage!</p>
               <p>Unfortunately, you have to pay for the API to work with HTTPS calls so I cannot use it 
                 in production, but here's an example.
               </p>
               
-              <video src={Video} width="950" height="600" controls="controls" autoplay="true" />
+              <video src={Video} width="50%" className="videowidth"  controls="controls" autoplay="true" />
               <br />
+              <div>
                <AnimatedSocialIcon
     brandName="github"
     url="https://github.com/oalmaguer/news"
@@ -175,7 +179,31 @@ export default class About extends Component {
     width="2em"
     animationDuration={0.8}
     style={{padding: '2em', marginBottom: "40px"}}
+    /></div>
+
+          <h1 style={{color: "white", marginTop: "20px"}}>Web Scrapper with Puppeteer</h1>
+              <p>Scrapes the latest gaming news from 2 websites with Javascript, React, NodeJs and Puppeteer</p>
+              <p>First you click on the Website you want to scrape, levelup.com or atomix.vg, then it opens a chromium browser
+                and starts scraping the latest news, you can see the text on the console too.
+                After that it displays the author, the date and the text content of the news on the Frontend
+              </p>
+              <p>The loading times when deploying to Heroku are too long even disabling css and images so I prefer to show it on video.
+              </p>
+              
+              <video src={Webscrape} width="50%" className="videowidth" controls="controls" autoplay="true" />
+              <br />
+               <AnimatedSocialIcon
+    brandName="github"
+    url="https://github.com/oalmaguer/newscraper3"
+    animation="bounce"
+    defaultColor="#17bf63"
+    hoverColor="white"
+    width="2em"
+    animationDuration={0.8}
+    style={{padding: '2em', marginBottom: "40px"}}
     />
+
+
             </div>
         </div>
         )

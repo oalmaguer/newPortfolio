@@ -24,6 +24,7 @@ hr {
 @media (max-width: 40rem) {
   .chronoContainer {
     width: 100%;
+    
   }
 
 
@@ -54,12 +55,27 @@ hr {
   justify-content: space-around;
 }
 
+.videos {
+  height: 50px;
+  box-sizing: border-box;
+  max-width: 80%;
+  margin: 30px;
+
+  }
+
 @media (max-width: 800px) {
   .cards {
     align-items: center;
     flex-direction: column;
   }
+
+  .videowidth {
+    width: 90%;
+  }
+
+
 }
+
 
 
 
