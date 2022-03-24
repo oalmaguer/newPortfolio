@@ -22,7 +22,7 @@ function Home() {
          I started a small website business this last year creating pages with Wordpress, Elementor and code. 
         You can learn more about it here <a href="https:///creativoa.com" target="_blank">Creativo A</a> 
         <br />
-        <p><span className="habilidades">My Skills: </span> HTML, CSS, Javascript, Jquery, React, Node, Express, PHP, Mysql, Wordpress, MongoDB, Mongoose, Photoshop, Premiere, Lightroom.</p>
+        <p><span className="habilidades">My Skills: </span> HTML, CSS, Javascript, Angular, MongoDB, Python, Jquery, React, Node, Express, PHP, Mysql, Wordpress, MongoDB, Mongoose, Photoshop, Premiere, Lightroom.</p>
         </p>
         
       <Iconos />
